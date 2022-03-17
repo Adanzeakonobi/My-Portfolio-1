@@ -1,7 +1,7 @@
 body,
 h1,
 h2,
-div {
+ul {
   margin: 0;
   padding: 0;
 }
@@ -13,8 +13,8 @@ div {
 }
 
 nav {
-  width: 99%;
-  height: 65px;
+  width: 98%;
+  height: 60px;
   background: #3c3a39;
   display: flex;
   align-items: center;
@@ -24,14 +24,15 @@ nav {
 
 .navbar-logo {
   display: flex;
-  font-size: 20px;
-  line-height: 25px;
+  font-size: 18px;
+  line-height: 24px;
   font-weight: 700;
   font-family: Roboto, sans-serif;
   color: #fff;
+  text-decoration: none;
 }
 
-.navbar-portfolio {
+.navbar-menu {
   padding-right: 50px;
 }
 
@@ -64,7 +65,7 @@ nav {
 
 .header-subtitle {
   display: flex;
-  font-family: Poppins, sans-serif;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -75,14 +76,13 @@ nav {
 .header-text-description {
   font-family: Poppins, sans-serif;
   font-style: normal;
-  font-weight: 401;
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #fff;
 }
 
-.social {
-  display: flex;
+.social-media {
   margin-top: 20px;
   top: 268px;
   left: 40px;
@@ -91,23 +91,13 @@ nav {
   list-style: none;
 }
 
-.social-link {
+.social-media-icon {
   padding: 15px;
-  background-color: transparent;
-  transition: 350ms;
-}
-
-.social-link:hover {
-  background-color: rgba(255, 255, 255, 0.096);
-}
-
-.social-icon {
   display: flex;
-  padding: 15px;
-  height: 20px;
   justify-content: center;
   align-items: flex-start;
-    }
+}
+
 .image-correction {
   margin-top: 15px;
   padding: 0 10px;
