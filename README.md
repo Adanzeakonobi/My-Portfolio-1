@@ -1,4 +1,3 @@
-# Personal-portfolio
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Personal Portfolio
