@@ -12,7 +12,7 @@
 
 ## Getting Started
 
-**Just clone the project by runing the `git clone git@github.com:abreham1222/Personal-portfolio.git` command in your command line, and you are done.**
+**Just clone the project by runing the `git clone git@github.com:Adanzeakonbi/Personal-portfolio.git` command in your command line, and you are done.**
 
 
 ## Authors
