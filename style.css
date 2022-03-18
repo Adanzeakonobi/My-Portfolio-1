@@ -18,7 +18,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
- }
+}
 
 .navbar-logo {
   display: flex;
@@ -31,7 +31,7 @@ nav {
 }
 
 .navbar-menu {
-  padding-right: 0px;
+  padding-right: 0;
 }
 
 .header-box {
@@ -99,4 +99,3 @@ nav {
   margin-top: 15px;
   padding: 0 10px;
 }
-
