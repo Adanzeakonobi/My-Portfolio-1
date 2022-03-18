@@ -13,14 +13,12 @@ ul {
 }
 
 nav {
-  width: 98%;
   height: 60px;
   background: #3c3a39;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px;
-}
+ }
 
 .navbar-logo {
   display: flex;
@@ -33,18 +31,17 @@ nav {
 }
 
 .navbar-menu {
-  padding-right: 50px;
+  padding-right: 0px;
 }
 
 .header-box {
   background-size: 256px;
-  height: 600px;
   width: 100%;
   background-color: #1c1a19;
   display: flex;
   background-repeat: no-repeat;
   background-position: bottom right -110px;
-  background-image: url("./Images/header-illustration.png");
+  background-image: url("./icons/header-illustration.png");
 }
 
 .header-content {
@@ -102,3 +99,4 @@ nav {
   margin-top: 15px;
   padding: 0 10px;
 }
+
