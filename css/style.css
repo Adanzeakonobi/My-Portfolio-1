@@ -238,9 +238,7 @@ nav {
   display: grid;
   font-family: "Crete Round", serif;
   font-style: normal;
-  width: 337px;
-  height: 81px;
-  font-weight: 400;
+    font-weight: 400;
   font-size: 32px;
   line-height: 44px;
   color: #fff;
@@ -250,9 +248,7 @@ nav {
 .daily-selection {
   display: grid;
   justify-content: center;
-  width: 337px;
-  height: 72px;
-  padding-top: 40px;
+    padding-top: 40px;
   font-family: "Inter", serif;
   font-style: normal;
   font-weight: 400;
@@ -267,7 +263,7 @@ nav {
   justify-content: flex-start;
   gap: 12px;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 .pro-h {
@@ -282,11 +278,11 @@ nav {
   font-weight: 500;
   color: #fff;
   background: rgba(255, 255, 255, 0.24);
-}
+  }
 
 .see-proj {
   width: 100%;
-  height: 24px;
+  height: 45px;
   background: #ff6b00;
   font-family: "Inter", serif;
   font-style: normal;
@@ -318,7 +314,7 @@ nav {
 .about-me {
   padding-top: 120px;
   padding-bottom: 209px;
-  background-image: url("Skeleton/Group.png");
+  background-image: url("../Skeleton/Group.png");
   background-repeat: no-repeat;
   background-size: 493px 258px;
   background-position: bottom right -305px;
@@ -327,7 +323,6 @@ nav {
 }
 
 .about-head {
-  height: 78px;
   font-size: 72px;
   line-height: 82px;
   letter-spacing: 0.33px;
@@ -356,8 +351,8 @@ nav {
   font-family: "Inter", serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 32px;
+  font-size: 16px;
+  line-height: 24px;
   color: #f4f5f7;
 }
 
