@@ -1,6 +1,7 @@
 body,
 h1,
 h2,
+h6,
 ul {
   margin: 0;
   padding: 0;
@@ -40,6 +41,7 @@ nav {
 
 .header-box {
   background-size: 256px;
+  height: 600px;
   width: 100%;
   background-color: #1c1a19;
   display: flex;
@@ -116,7 +118,7 @@ nav {
   font-size: 40px;
   line-height: 52px;
   display: grid;
-  justify-content: start;
+  justify-content: center;
   margin-top: 170px;
 }
 
