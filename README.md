@@ -8,8 +8,6 @@
 
 - HTML 5
 - CSS 3
-- github
-- VS code
 
 
 ## Getting Started
