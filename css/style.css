@@ -238,7 +238,7 @@ nav {
   display: grid;
   font-family: "Crete Round", serif;
   font-style: normal;
-    font-weight: 400;
+  font-weight: 400;
   font-size: 32px;
   line-height: 44px;
   color: #fff;
@@ -248,7 +248,7 @@ nav {
 .daily-selection {
   display: grid;
   justify-content: center;
-    padding-top: 40px;
+  padding-top: 40px;
   font-family: "Inter", serif;
   font-style: normal;
   font-weight: 400;
@@ -278,7 +278,7 @@ nav {
   font-weight: 500;
   color: #fff;
   background: rgba(255, 255, 255, 0.24);
-  }
+}
 
 .see-proj {
   width: 100%;
