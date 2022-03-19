@@ -389,7 +389,7 @@ nav {
   color: #fff;
 }
 
-.tech-white {
+..tech-title > h5 {
   font-family: "inter", serif;
   font-style: normal;
   font-weight: 700;
