@@ -400,3 +400,91 @@ nav {
   line-height: 44px;
   color: #fff;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #fff;
+}
+
+.form-detail {
+  font-family: "Inter", serif;
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 50px;
+  padding-top: 90px;
+  color: #172b4d;
+}
+
+input[type="text"],
+input[type="email"] {
+  font-family: "Inter", serif;
+  font-size: 15px;
+  margin-top: 28px;
+  width: 295px;
+  border: #979493;
+  box-sizing: border-box;
+  text-align: start;
+  border-bottom: groove;
+  border-bottom-width: thin;
+}
+
+textarea {
+  font-family: "inter", serif;
+  margin-top: 20px;
+  margin-left: 15px;
+  width: 327px;
+  height: 114px;
+  background: #fbf8f7;
+  border: #d4cfc9;
+  box-sizing: border-box;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.button {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  background: #f55800;
+  color: #fff;
+  border: 1px solid #f56b00;
+  padding: 15px 20px;
+}
+
+.button:hover {
+  transition: all 0.2s ease-in-out;
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+  cursor: pointer;
+}
+
+.social-media-icon1 {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-link {
+  display: flex;
+}
+
+.social-icon {
+  padding: 15px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}

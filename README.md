@@ -2,7 +2,7 @@
 
 # My Portfolio
 
-> This is a project personal portfolio.
+> This is a Microverse project personal portfolio.
 
 ## Built With
 
