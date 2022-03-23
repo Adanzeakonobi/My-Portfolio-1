@@ -406,7 +406,6 @@ form {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 900px;
   background-color: #fff;
 }
 
@@ -427,11 +426,14 @@ form {
 input[type="text"],
 input[type="email"] {
   font-family: "Inter", serif;
-  margin-top: 20px;
+  font-size: 15px;
+  margin-top: 28px;
   width: 295px;
   border: #979493;
   box-sizing: border-box;
   text-align: start;
+  border-bottom: groove;
+  border-bottom-width: thin;
 }
 
 textarea {
@@ -441,6 +443,7 @@ textarea {
   width: 327px;
   height: 114px;
   background: #fbf8f7;
+  border: #d4cfc9;
   box-sizing: border-box;
   font-weight: 700;
   font-size: 15px;
@@ -466,11 +469,13 @@ textarea {
   cursor: pointer;
 }
 
-.social-footer-social {
+.social-media-icon1 {
   margin-top: 100px;
   display: flex;
   flex-direction: row;
   list-style: none;
+  justify-content: center;
+  align-items: center;
 }
 
 .social-link {
