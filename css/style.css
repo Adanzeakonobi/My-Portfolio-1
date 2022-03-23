@@ -435,17 +435,17 @@ input[type="email"] {
 }
 
 textarea {
-   font-family: "inter", serif;
+  font-family: "inter", serif;
   margin-top: 20px;
   margin-left: 15px;
   width: 327px;
   height: 114px;
-  background: #FBF8F7;
+  background: #fbf8f7;
   box-sizing: border-box;
   font-weight: 700;
   font-size: 15px;
-  line-height: 24px; 
-}
+  line-height: 24px;
+} 
 
 .button {
   font-family: "Inter", sans-serif;
