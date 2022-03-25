@@ -40,6 +40,11 @@ nav {
   font-family: Roboto, sans-serif;
   color: #fff;
   text-decoration: none;
+  transition: background-color 0.5s;
+}
+
+.navbar-logo:hover {
+  background-color: red;
 }
 
 .navbar-menu {
