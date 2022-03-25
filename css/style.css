@@ -488,3 +488,281 @@ textarea {
   justify-content: end;
   align-items: center;
 }
+
+@media screen and (min-width: 1100px) {
+  .container {
+    padding: 0 154px;
+  }
+
+  .navbar-menu {
+    display: flex;
+  }
+
+  .navbar-menu-button {
+    display: none;
+  }
+
+  .navbar-logo {
+    font-size: 20px;
+    line-height: 20px;
+    font-family: Roboto, sans-serif;
+  }
+
+  .header-box {
+    background-position: top right;
+    background-size: auto;
+    height: 870px;
+  }
+
+  .header-content {
+    position: static;
+    margin: 192px 0;
+    padding-left: 70px;
+  }
+
+  .header-title {
+    font-size: 72px;
+    line-height: 81px;
+    width: 400px;
+  }
+
+  .header-subtitle {
+    font-size: 32px;
+    line-height: 44px;
+    margin-top: 0;
+    width: 566px;
+  }
+
+  .header-text-description {
+    font-size: 1.3rem;
+    line-height: 32px;
+    width: 566px;
+    height: 123px
+  }
+
+  .social-media {
+    left: 0px;
+    top: 300px;
+    position: absolute;
+    flex-direction: column;
+  }
+
+  .new-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+  }
+
+  .work-container {
+    display: flex;
+    align-items: center;
+    padding-top: 17px;
+    padding-bottom: 42px;
+    grid-column: 1 / 4;
+  }
+
+  .work-container div {
+    width: calc(100% - 339px);
+  }
+
+  .recent-work {
+    width: 315px;
+    margin-right: 24px;
+    height: 52px;
+    color: #091e42;
+    font-weight: 400;
+  }
+
+  .project-description {
+    font-size: 17px;
+  }
+
+  .image-p {
+    display: flex;
+    grid-column: 1 / 4;
+  }
+
+  .image-placeholder {
+    width: 648px;
+    height: 448px;
+    margin-right: 24px;
+  }
+
+  .multi {
+    width: calc(100% - 648px);
+  }
+
+  .multi > .multi-post {
+    font-size: 40px;
+    line-height: 52px;
+    margin-top: 0;
+    color: #091e42;
+  }
+
+  .multi > .recent-detail {
+    font-size: 20px;
+    line-height: 28px;
+    color: #091e42;
+  }
+
+  .course {
+    color: #091e42;
+  }
+
+  .multi > button {
+    margin-top: 24px;
+  }
+
+  .pro-art{
+    height: 435px;
+  }
+
+  .new-container:nth-child(n + 4) {
+    height: 100%;
+  }
+
+  .pro-art:hover div {
+    display: none;
+  }
+
+  .professional-work > button {
+    height: 58px;
+  }
+
+  .about {
+    background-color: #262626;
+    padding-bottom: 116px;
+  }
+
+  .about-me {
+    background-size: 672px 352px;
+    background-position: center right;
+    padding-bottom: 131.2px;
+  }
+
+   .about-me > .about-soft {
+    width: calc(566px + 308px);
+  }
+
+  .about-head {
+    font-size: 72px;
+    line-height: 81px;
+    height: 78px;
+    font-weight: 400;
+    margin-top: 10px;
+  }
+
+  .about-me > .about-soft > p {
+    font-size: 20px;
+    line-height: 32px;
+    color: #f4f4f4 !important;
+    font-weight: normal;
+  }
+
+  .about1 {
+    padding: 0 154px;
+  }
+
+  .footer-technologies {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-social-media-links {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+  .technologies {
+    width: 282px;
+  }
+
+  .tech-title {
+    text-align: left;
+    justify-content: start;
+    margin-bottom: 25px;
+  }
+
+  .tech {
+    text-align: left;
+    margin-bottom: 11px;
+  }
+
+  .contact {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 130px;
+    padding-bottom: 152px;
+  }
+
+  .contact-form-title-section {
+    width: 455px;
+    height: 256px;
+  }
+
+  .contact-form-title {
+    font-size: 40px;
+    line-height: 52px;
+    color: #262626;
+    text-align: left;
+    width: 100%;
+  }
+
+  .form-detail {
+    width: 455px;
+    height: 256px;
+    position: relative;
+    margin-top: 0;
+    text-align: left;
+  }
+
+  .footer-line-section {
+    display: none;
+  }
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.decoration-none {
+  text-decoration: none;
+}
+
+.font-inter {
+  font-family: Inter, sans-serif;
+}
+
+.text-orange {
+  color: #f55800;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-black {
+  color: #1c1a19;
+}
+
+.font-crete-round {
+  font-family: "Crete Round", serif;
+}
+
+.see-proj {
+  width: 100%;
+}
+
+.project {
+  margin-top: 12px;
+}
+
+.hello {
+  margin-top: 24px;
+}
+
+.pro-h {
+  margin-bottom: 6px;
+}
