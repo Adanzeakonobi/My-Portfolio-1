@@ -3,7 +3,9 @@
   src: url("InaiMathi\ Regular.ttf");
 }
 
-html { font-family: 'Inter', sans-serif; }
+html {
+  font-family: "Inter", sans-serif;
+}
 
 body,
 h1,
@@ -192,6 +194,10 @@ nav {
   box-sizing: border-box;
   font-style: normal;
   font-weight: 500;
+  transition: background-color 2s;
+}
+.list:hover {
+  background-color: red;
 }
 
 .project {
