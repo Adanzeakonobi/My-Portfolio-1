@@ -3,7 +3,9 @@
   src: url("InaiMathi\ Regular.ttf");
 }
 
-html { font-family: 'Inter', sans-serif; }
+html {
+  font-family: "Inter", sans-serif;
+}
 
 body,
 h1,
@@ -46,7 +48,7 @@ nav {
   padding-right: 0;
 }
 
-.header-box {
+.about-us {
   background-size: 256px;
   height: 600px;
   width: 100%;
@@ -130,8 +132,8 @@ nav {
 }
 
 .about-hr {
-  border: 1px dotted #000;
-  margin-bottom: 15px;
+  border: 1px solid #000;
+  width: 100%;
 }
 
 .image-p {
@@ -205,6 +207,13 @@ nav {
   border: none;
 }
 
+.professional-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .project:hover {
   transition: all 0.2s ease-in-out;
   background: #fff5e1;
@@ -214,24 +223,23 @@ nav {
 
 .professional-work {
   display: grid;
-  padding-top: 20px;
-  padding-bottom: 20px;
   padding-left: 20px;
   padding-right: 20px;
+  padding-bottom: 16px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
   background-image: url("../Skeleton/Img\ Place.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 20px;
-  margin-top: 20px;
   position: relative;
+  height: 435px;
 }
 
 .pro-art {
   display: grid;
   width: 98%;
+  place-content: end;
 }
 
 .art-print {
@@ -264,6 +272,7 @@ nav {
   gap: 12px;
   padding-top: 20px;
   padding-bottom: 40px;
+  height: 40px;
 }
 
 .pro-h {
@@ -409,6 +418,18 @@ form {
   background-color: #fff;
 }
 
+form.contact-us {
+  align-items: start;
+}
+
+form.contact-us > textarea {
+  margin-left: 0;
+}
+
+.contact-form {
+  padding: 0 30px;
+}
+
 .form-detail {
   font-family: "Inter", serif;
   font-style: normal;
@@ -418,8 +439,6 @@ form {
   line-height: 44px;
   margin-left: 25px;
   margin-right: 25px;
-  margin-top: 50px;
-  padding-top: 90px;
   color: #172b4d;
 }
 
@@ -434,6 +453,10 @@ input[type="email"] {
   text-align: start;
   border-bottom: groove;
   border-bottom-width: thin;
+}
+
+form.contact-us > input {
+  width: 100%;
 }
 
 textarea {
@@ -470,7 +493,6 @@ textarea {
 }
 
 .social-media-icon1 {
-  margin-top: 100px;
   display: flex;
   flex-direction: row;
   list-style: none;
@@ -489,9 +511,10 @@ textarea {
   align-items: center;
 }
 
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 768px) {
   .container {
     padding: 0 154px;
+    box-sizing: border-box;
   }
 
   .navbar-menu {
@@ -508,10 +531,12 @@ textarea {
     font-family: Roboto, sans-serif;
   }
 
-  .header-box {
+  .about-us {
     background-position: top right;
     background-size: auto;
     height: 870px;
+    padding-left: 130px;
+    box-sizing: border-box;
   }
 
   .header-content {
@@ -537,7 +562,7 @@ textarea {
     font-size: 1.3rem;
     line-height: 32px;
     width: 566px;
-    height: 123px
+    height: 123px;
   }
 
   .social-media {
@@ -551,14 +576,22 @@ textarea {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 24px;
+    /* padding: 0 130px; */
+  }
+
+  .professional-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
   }
 
   .work-container {
     display: flex;
     align-items: center;
-    padding-top: 17px;
     padding-bottom: 42px;
-    grid-column: 1 / 4;
+    padding-left: 130px;
+    padding-right: 130px;
+    margin-top: 100px;
   }
 
   .work-container div {
@@ -571,8 +604,13 @@ textarea {
     height: 52px;
     color: #091e42;
     font-weight: 400;
+    margin-top: 0px;
+    flex: 1;
   }
 
+  div.header-hr {
+    flex: 1.5;
+  }
   .project-description {
     font-size: 17px;
   }
@@ -583,7 +621,7 @@ textarea {
   }
 
   .image-placeholder {
-    width: 648px;
+    width: 548px;
     height: 448px;
     margin-right: 24px;
   }
@@ -613,8 +651,8 @@ textarea {
     margin-top: 24px;
   }
 
-  .pro-art{
-    height: 435px;
+  .pro-art {
+    /* height: 435px; */
   }
 
   .new-container:nth-child(n + 4) {
@@ -632,15 +670,18 @@ textarea {
   .about {
     background-color: #262626;
     padding-bottom: 116px;
+    padding-left: 130px;
+    padding-right: 130px;
   }
 
   .about-me {
     background-size: 672px 352px;
     background-position: center right;
     padding-bottom: 131.2px;
+    margin: 0;
   }
 
-   .about-me > .about-soft {
+  .about-me > .about-soft {
     width: calc(566px + 308px);
   }
 
@@ -672,6 +713,7 @@ textarea {
     display: flex;
     justify-content: center;
     text-align: center;
+  }
 
   .technologies {
     width: 282px;
@@ -690,16 +732,17 @@ textarea {
 
   .contact {
     display: flex;
+    flex-direction: row;
     gap: 24px;
     justify-content: space-between;
     align-items: flex-start;
-    padding-top: 130px;
-    padding-bottom: 152px;
+    padding: 130px;
   }
 
   .contact-form-title-section {
     width: 455px;
     height: 256px;
+    padding: 0;
   }
 
   .contact-form-title {
@@ -710,11 +753,14 @@ textarea {
     width: 100%;
   }
 
+  .contact-form {
+    flex: 1.5;
+  }
+
   .form-detail {
-    width: 455px;
-    height: 256px;
+    flex: 1;
     position: relative;
-    margin-top: 0;
+    margin: 0;
     text-align: left;
   }
 
