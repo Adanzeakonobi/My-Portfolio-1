@@ -422,6 +422,20 @@ form.contact-us {
   align-items: start;
 }
 
+textarea {
+  font-family: "inter", serif;
+  margin-top: 20px;
+  margin-left: 15px;
+  width: 327px;
+  height: 114px;
+  background: #fbf8f7;
+  border: #d4cfc9;
+  box-sizing: border-box;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+}
+
 form.contact-us > textarea {
   margin-left: 0;
 }
@@ -457,20 +471,6 @@ input[type="email"] {
 
 form.contact-us > input {
   width: 100%;
-}
-
-textarea {
-  font-family: "inter", serif;
-  margin-top: 20px;
-  margin-left: 15px;
-  width: 327px;
-  height: 114px;
-  background: #fbf8f7;
-  border: #d4cfc9;
-  box-sizing: border-box;
-  font-weight: 700;
-  font-size: 15px;
-  line-height: 24px;
 }
 
 .button {
@@ -566,7 +566,7 @@ textarea {
   }
 
   .social-media {
-    left: 0px;
+    left: 0;
     top: 300px;
     position: absolute;
     flex-direction: column;
@@ -576,7 +576,6 @@ textarea {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 24px;
-    /* padding: 0 130px; */
   }
 
   .professional-section {
@@ -605,14 +604,14 @@ textarea {
     color: #091e42;
     font-weight: 400;
     margin-top: 0px;
-    flex: 1;
+    flex: 1px;
   }
 
   div.header-hr {
     flex: 1.5;
   }
   .project-description {
-    font-size: 17px;
+  font-size: 17px;
   }
 
   .image-p {
@@ -795,20 +794,4 @@ textarea {
 
 .font-crete-round {
   font-family: "Crete Round", serif;
-}
-
-.see-proj {
-  width: 100%;
-}
-
-.project {
-  margin-top: 12px;
-}
-
-.hello {
-  margin-top: 24px;
-}
-
-.pro-h {
-  margin-bottom: 6px;
 }
