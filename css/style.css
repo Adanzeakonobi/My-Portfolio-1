@@ -541,8 +541,6 @@ form.contact-us > input {
   .header-content {
     position: static;
     padding-left: 70px;
-    position: static;
-    padding-left: 70px;
     margin-top: 192px;
     margin-bottom: 192px;
   }
@@ -691,7 +689,7 @@ form.contact-us > input {
     padding-bottom: 116px;
     padding-left: 120px;
     padding-right: 130px;
-    width: 110%;
+    width: 108%;
   }
 
   .about-me {
