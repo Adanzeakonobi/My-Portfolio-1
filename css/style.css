@@ -1,7 +1,5 @@
-@font-face {
-  font-family: "InaiMathi";
-  src: url("InaiMathi\ Regular.ttf");
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url("https://fonts.google.com/specimen/Crete+Round?query=crete");
 
 html {
   font-family: "Inter", sans-serif;
@@ -513,7 +511,8 @@ form.contact-us > input {
 
 @media screen and (min-width: 768px) {
   .container {
-    padding: 0 154px;
+    padding: 0 85px;
+    width: 140%;
     box-sizing: border-box;
   }
 
@@ -535,14 +534,17 @@ form.contact-us > input {
     background-position: top right;
     background-size: auto;
     height: 870px;
-    padding-left: 130px;
     box-sizing: border-box;
+    width: 140%;
   }
 
   .header-content {
     position: static;
-    margin: 192px 0;
     padding-left: 70px;
+    position: static;
+    padding-left: 70px;
+    margin-top: 192px;
+    margin-bottom: 192px;
   }
 
   .header-title {
@@ -561,12 +563,12 @@ form.contact-us > input {
   .header-text-description {
     font-size: 1.3rem;
     line-height: 32px;
-    width: 566px;
-    height: 123px;
+    width: 120%;
+    height: 100px;
   }
 
   .social-media {
-    left: 0;
+    left: 2.5%;
     top: 300px;
     position: absolute;
     flex-direction: column;
@@ -582,6 +584,9 @@ form.contact-us > input {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 24px;
+    width: 100%;
+    padding-left: 120px;
+    padding-bottom: 30px;
   }
 
   .work-container {
@@ -595,6 +600,7 @@ form.contact-us > input {
 
   .work-container div {
     width: calc(100% - 339px);
+    font-size: 50px;
   }
 
   .recent-work {
@@ -607,8 +613,9 @@ form.contact-us > input {
     flex: 1px;
   }
 
-  div.header-hr {
-    flex: 1.5;
+  .about-hr {
+    border: 1px solid #000;
+    width: 450px;
   }
 
   .project-description {
@@ -621,13 +628,14 @@ form.contact-us > input {
   }
 
   .image-placeholder {
-    width: 548px;
+    width: 70%;
     height: 448px;
     margin-right: 24px;
+    padding-left: 80px;
   }
 
   .multi {
-    width: calc(100% - 648px);
+    width: 100%;
   }
 
   .multi > .multi-post {
@@ -641,10 +649,21 @@ form.contact-us > input {
     font-size: 20px;
     line-height: 28px;
     color: #091e42;
+    width: 350px;
   }
 
   .course {
+    display: flex;
+    justify-content: flex-start;
+    gap: 12px;
     color: #091e42;
+  }
+
+  .pro-tag {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-right: 120px;
   }
 
   .multi > button {
@@ -670,15 +689,17 @@ form.contact-us > input {
   .about {
     background-color: #262626;
     padding-bottom: 116px;
-    padding-left: 130px;
+    padding-left: 120px;
     padding-right: 130px;
+    width: 110%;
   }
 
   .about-me {
-    background-size: 672px 352px;
+    background-size: 350px 258px;
     background-position: center right;
     padding-bottom: 131.2px;
     margin: 0;
+    width: 100%;
   }
 
   .about-me > .about-soft {
@@ -698,15 +719,17 @@ form.contact-us > input {
     line-height: 32px;
     color: #f4f4f4 !important;
     font-weight: normal;
+    width: 48%;
   }
 
   .about1 {
-    padding: 0 154px;
+    padding: 0;
   }
 
   .footer-technologies {
     display: flex;
     justify-content: space-between;
+    width: 100%;
   }
 
   .footer-social-media-links {
@@ -727,7 +750,7 @@ form.contact-us > input {
 
   .tech {
     text-align: left;
-    margin-bottom: 11px;
+    margin-bottom: 10px;
   }
 
   .contact {
@@ -737,6 +760,7 @@ form.contact-us > input {
     justify-content: space-between;
     align-items: flex-start;
     padding: 130px;
+    width: 100%;
   }
 
   .contact-form-title-section {
@@ -758,7 +782,6 @@ form.contact-us > input {
   }
 
   .form-detail {
-    flex: 1;
     position: relative;
     margin: 0;
     text-align: left;
@@ -766,6 +789,15 @@ form.contact-us > input {
 
   .footer-line-section {
     display: none;
+  }
+
+  .social-media-icon1 {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    width: 140%;
   }
 }
 
