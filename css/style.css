@@ -603,15 +603,16 @@ form.contact-us > input {
     height: 52px;
     color: #091e42;
     font-weight: 400;
-    margin-top: 0px;
+    margin-top: 0;
     flex: 1px;
   }
 
   div.header-hr {
     flex: 1.5;
   }
+
   .project-description {
-  font-size: 17px;
+    font-size: 17px;
   }
 
   .image-p {
