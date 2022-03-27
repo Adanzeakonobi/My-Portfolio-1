@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
 @import url("https://fonts.google.com/specimen/Crete+Round?query=crete");
 
 html {
@@ -817,9 +817,10 @@ form.contact-us > input {
   .footer-line-section {
     display: none;
   }
-.foot-separater {
-  width: 140%;
-}
+
+  .foot-separater {
+    width: 140%;
+  }
 
   .social-media-icon1 {
     display: flex;
