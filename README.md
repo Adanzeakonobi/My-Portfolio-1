@@ -2,7 +2,11 @@
 
 # My Portfolio
 
-> This is a Microverse project personal portfolio.
+> This is a Microverse project personal portfolio built using HTML and CSS.
+
+## View The Project here
+
+ https://adanzeakonobi.github.io/My-Portfolio-project-2/
 
 ## Built With
 
@@ -12,8 +16,7 @@
 
 ## Getting Started
 
-**Just clone the project by runing the `git clone git@github.com:Adanzeakonbi/Personal-portfolio.git` command in your command line, and you are done.**
-
+**Just clone the project by runing the `git clone https://github.com/Adanzeakonbi/My-Portfolio-project-2.git` command in your command line, and you are done.**
 
 ## Authors
 
