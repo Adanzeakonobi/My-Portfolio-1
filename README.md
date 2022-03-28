@@ -6,7 +6,7 @@
 
 ## View The Project here
 
- https://adanzeakonobi.github.io/My-Portfolio-project-2/
+[Live Demo Link]  https://adanzeakonobi.github.io/My-Portfolio-project-2/ 
 
 ## Built With
 
