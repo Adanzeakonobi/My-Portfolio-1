@@ -66,6 +66,36 @@ nav {
   padding-right: 0;
 }
 
+.mobile-menu{
+  background-color: #3C3A39;
+}
+.mobile-menu-image{
+  display:flex;
+  justify-content: flex-end;
+}
+.mobile-menu-image img{
+  width: 40px;
+  height: 40px;
+  margin-right: 38px;
+}
+
+.mobile-menu-list{
+  display:flex;
+  flex-direction: column;
+ 
+}
+
+.mobile-menu-list li{
+  list-style: none;
+  font-size: 32px;
+  color: #FFF5E1;
+  font-weight: 700;
+  border-bottom: solid #6F6C6B 1px ;
+  margin-left: 24px;
+  margin-right:24px ;
+  padding-left: 24px;
+  padding-right:24px ;
+}
 .about-us {
   background-size: 256px;
   height: 600px;
