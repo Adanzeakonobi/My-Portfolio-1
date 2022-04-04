@@ -14,9 +14,8 @@ changeButton();
 }*/
 
 const togglebutton=document.querySelector(".navbar-menu img")
-console.log(togglebutton)
-const m_menu=document.querySelecttor(".mobile-menu")
-
+const m_menu=document.querySelector(".mobile-menu")
+console.log(m_menu)
 togglebutton.addEventListener("click", () => {
-    m-menu.classList.toggle("active")
+    m_menu.classList.toggle("active")
 })
