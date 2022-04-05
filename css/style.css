@@ -13,10 +13,11 @@ ul {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style-type: none ;
 }
 
 a {
-  color: inherit;
+  color: #FFF5E1;
   text-decoration: none;
 }
 
@@ -45,6 +46,14 @@ nav {
   font-family: Roboto, sans-serif;
   color: #fff;
   text-decoration: none;
+}
+
+.mobile-nav-list li {
+  text-align: left;
+  margin-top: 20px;
+  border-bottom: 2px solid #6f6c6b;
+  max-width: 100%;
+  padding: 15px;
 }
 
 .navbar-btn ul li {
@@ -88,14 +97,6 @@ nav {
   top: 0;
   width: 100%;
   height: 100vh;
-}
-
-.mobile-nav-list li {
-  text-align: left;
-  margin-top: 20px;
-  border-bottom: 2px solid #6f6c6b;
-  max-width: 100%;
-  padding: 15px;
 }
 
 .about-us {
