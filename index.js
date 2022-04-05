@@ -16,5 +16,54 @@ function changeButton() {
   const navLinks = Array.from(document.getElementsByClassName('mobile-nav-link'));
   navLinks.forEach((element) => element.addEventListener('click', toggle));
 
+  let projects=[
+    {name:"Bootstrap Portfolio", 
+    description: "Its a simple project to learn how to use bootstrap.", 
+    image:"", 
+    technologies: ["HTML", "CSS", "Bootstrap"], 
+    linklive:"", 
+    linksource:""
+    },
+
+    {name:"Tribute Page", 
+    description: "This project is a tribute page example.", 
+    image:"", 
+    technologies: ["HTML", "CSS"], 
+    linklive:"", 
+    linksource:""
+    },
+
+    {name:"Bootstrap Portfolio", 
+    description: "Its a simple project to learn how to use bootstrap.", 
+    image:"", 
+    technologies: ["HTML", "CSS", "Bootstrap"], 
+    linklive:"", 
+    linksource:""
+    },
+
+    {name:"Bootstrap Portfolio", 
+    description: "Its a simple project to learn how to use bootstrap.", 
+    image:"", 
+    technologies: ["HTML", "CSS", "Bootstrap"], 
+    linklive:"", 
+    linksource:""
+    },
+
+    {name:"Bootstrap Portfolio", 
+    description: "Its a simple project to learn how to use bootstrap.", 
+    image:"", 
+    technologies: ["HTML", "CSS", "Bootstrap"], 
+    linklive:"", 
+    linksource:""
+    },
+
+    {name:"Bootstrap Portfolio", 
+    description: "Its a simple project to learn how to use bootstrap.", 
+    image:"",
+    technologies: ["HTML", "CSS", "Bootstrap"], 
+    linklive:"" ,
+    linksource:""
+    }
+  ]
   
-  
+  console.log(projects)
