@@ -66,4 +66,27 @@ function changeButton() {
     }
   ]
   
-  console.log(projects)
+let popupcontainer=document.createElement('div')
+popupcontainer.className="popupcontainer"
+
+let popuptitle=document.createElement('h3')
+popuptitle.className="popuptitle"
+popuptitle.textContent=projects[0].name
+popupcontainer.appendChild(popuptitle)
+
+let techcontainer=document.createElement("ul")
+techcontainer.className="techcontainer"
+popupcontainer.appendChild(techcontainer)
+
+projects[0].technologies.forEach(element =>{
+  let techcontaineritem=document.createElement("li")
+  techcontaineritem.className="techcontaineritem"
+  techcontaineritem.textContent=element
+  techcontainer.appendChild(techcontaineritem)
+})
+
+let popupimage=document.createElement('img')
+popupimage.className="popupimage"
+popupimage.src="./assets/about-illustration-desk.svg"
+popupcontainer.appendChild(popupimage)
+document.body.appendChild(popupcontainer)
