@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-PVFKM922RK">
+    </script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-PVFKM922RK");
+    </script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -22,19 +35,23 @@
             </li>
           </ul>
         </a>
-        <a href="#" class="navbar-menu">
-          <img src="./icons/Union.png" alt="Menu" />
-        </a>
+        <a href="#" class="navbar-menu" onclick="toggle()">
+          <img id="hamburger-btn" src="assets/hamburger.svg" alt="Menu" />
+        </a> 
       </nav>
-    </header>
-    <div class="mobile-menu">
-      <div class="mobile-menu-image" onclick="toggle()"><img id="hamburger-btn" src="./icons/quit_image.png"></div>
-      <ul class="mobile-menu-list">
-        <li>Portfolio</li>
-        <li>About</li>
-        <li>Contact</li>
+      <ul id="mobile-nav-list" class="mobile-nav-list">
+        
+        <li>
+          <a class="mobile-nav-link" href="#">Portfolio</a>
+        </li>
+        <li>
+          <a class="mobile-nav-link" href="#">About</a>
+        </li>
+        <li>
+          <a class="mobile-nav-link" href="#">Contact</a>
+        </li>
       </ul>
-    </div>
+    </header>
     <section class="about-us">
       <section class="header-content">
         <h1 class="header-title">Hey There. I'm Adaobi</h1>
