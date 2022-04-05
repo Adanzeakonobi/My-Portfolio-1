@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-PVFKM922RK">
+    </script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-PVFKM922RK");
+    </script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -22,10 +35,22 @@
             </li>
           </ul>
         </a>
-        <a href="#" class="navbar-menu">
-          <img src="./icons/Union.png" alt="Menu" />
-        </a>
+        <a href="#" class="navbar-menu" onclick="toggle()">
+          <img id="hamburger-btn" src="assets/hamburger.svg" alt="Menu" />
+        </a> 
       </nav>
+      <ul id="mobile-nav-list" class="mobile-nav-list">
+        
+        <li>
+          <a class="mobile-nav-link" href="#work-section">Portfolio</a>
+        </li>
+        <li>
+          <a class="mobile-nav-link" href="#abouta-section">About</a>
+        </li>
+        <li>
+          <a class="mobile-nav-link" href="#contacta-section">Contact</a>
+        </li>
+      </ul>
     </header>
     <section class="about-us">
       <section class="header-content">
@@ -80,7 +105,9 @@
           </div>
         </div>
       </header>
-      <section class="new-container">
+
+      <!-- Works Section -->
+      <section  id="work-section" class="new-container">
         <div class="image-p">
           <img
             class="image-placeholder"
@@ -180,7 +207,9 @@
           </div>
         </div>
       </section>
-      <section class="about">
+
+      <!-- About Section -->
+      <section  id="abouta-section" class="about">
         <div class="about-me">
           <div class="about-soft">
             <h2 class="about-head">About me</h2>
@@ -231,7 +260,9 @@
           </ul>
         </div>
       </section>
-      <section class="contact">
+
+      <!-- Contact Section -->
+      <section  id="contacta-section" class="contact">
         <div class="form-detail">
           <p>
             I'm always interested in hearing about new projects, so if you'd
@@ -293,5 +324,6 @@
         </div>
       </footer>
     </main>
+    <script src="index.js"></script>
   </body>
 </html>
