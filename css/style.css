@@ -79,6 +79,7 @@ nav {
 .navbar-menu {
   padding-right: 0;
   z-index: 1;
+  margin-right: 24px;
 }
 
 .mobile-nav-list {
