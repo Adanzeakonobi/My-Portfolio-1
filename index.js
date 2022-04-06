@@ -1,3 +1,8 @@
+const emailinput=document.querySelector('#mail')
+const form=document.querySelector('form')
+const msgerror=document.querySelector('.message-error')
+
+
 function changeButton() {
     const hamburgerButton = document.getElementById('hamburger-btn');
     if (hamburgerButton.getAttribute('src') === 'assets/hamburger.svg') {
@@ -17,9 +22,7 @@ function changeButton() {
   navLinks.forEach((element) => element.addEventListener('click', toggle));
 
   
-const emailinput=document.querySelector('#email')
-const form=document.querySelector('form')
-const msgerror=document.querySelector('.message-error')
+
 form.addEventListener('submit', (event) =>{
   console.log(event)
   event.preventDefault();
