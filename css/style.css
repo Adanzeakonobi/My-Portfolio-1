@@ -66,6 +66,22 @@ nav {
   padding: 0;
 }
 
+.pop-ul-det li {
+  list-style-type: none;
+  border: 1px solid #8993a4;
+  margin-right: 12px;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 600;
+  color: #3c3a39;
+}
+
+.work1 li {
+  display: inline-block;
+}
+
 .navbar-btn ul li {
   font-size: 15px;
   list-style: none;
@@ -218,10 +234,6 @@ nav {
   width: auto;
   margin: 0;
   padding: 0;
-}
-
-.work1 li {
-  display: inline-block;
 }
 
 .work1head {
@@ -607,18 +619,6 @@ button:enabled {
   display: flex;
   padding: 0;
   margin-left: 55px;
-}
-
-.pop-ul-det li {
-  list-style-type: none;
-  border: 1px solid #8993a4;
-  margin-right: 12px;
-  padding: 10px;
-  font-family: "Poppins", sans-serif;
-  font-size: 13px;
-  line-height: 16px;
-  font-weight: 600;
-  color: #3c3a39;
 }
 
 .modal-cont-con {
