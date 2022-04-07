@@ -168,14 +168,15 @@
           <form
             action="https://formspree.io/f/xlezlkyw"
             method="post"
-            class="contact-us">
+            class="contact-us"
+            id="form">
             <input
               type="text"
               placeholder="Full Name"
               maxlength="30"
               required
               />
-            <input type="email" placeholder="Email address" required />
+            <input id="email" class="email" type="email" placeholder="Email address" required />
             <textarea
               name="msgt1"
               id="t1"
@@ -185,9 +186,11 @@
               placeholder="Enter text here"
               required
             ></textarea>
-            <p>
+            <div class="submit-container">
               <button class="button" type="submit">Get in touch</button>
-            </p>
+              
+              <p class="message-error">Email format has to be lowercase</p>
+            </div>
           </form>
         </div>
       </section>

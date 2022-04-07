@@ -513,6 +513,21 @@ form.contact-us > input {
   width: 100%;
 }
 
+.submit-container {
+  justify-content: center;
+  gap: 12px;
+}
+
+.message-error {
+  color: red;
+  font-size: 17px;
+  display: none;
+}
+
+.message-error.active {
+  display: block;
+}
+
 .button {
   font-family: "Inter", sans-serif;
   font-weight: bold;
@@ -1142,7 +1157,7 @@ button:enabled {
     justify-content: space-between;
     align-items: flex-start;
     padding: 130px;
-    width: 100%;
+    width: 140%;
     box-sizing: border-box;
   }
 

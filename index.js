@@ -16,5 +16,32 @@ function changeButton() {
   const navLinks = Array.from(document.getElementsByClassName('mobile-nav-link'));
   navLinks.forEach((element) => element.addEventListener('click', toggle));
 
+
+const emailinput = document.querySelector('.email');
+const form = document.querySelector('form');
+const msgerror = document.querySelector('.message-error');
+
+
+  form.addEventListener('submit', (event) =>{
+    console.log(event)
+    event.preventDefault();
+    
+    if(emailinput.value===((emailinput.value).toLowerCase())){
+      form.submit()
+      msgerror.classList.remove('active')
+    }else{
+      msgerror.classList.add('active')
+    }
+    
+  })
+
+  /*const form = document.getElementById('form');
+  const email = document.querySelector('.email');
+  const errorMsg = document.querySelector('small');
   
-  
+  form.addEventListener('submit', (event) => {
+    let errorMessage = '';
+    const emailLower = email.value.toLowerCase();
+    if (emailLower !== email.value) {
+      errorMessage = 'email has to be in lower case';
+    }*/
