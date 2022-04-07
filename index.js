@@ -45,3 +45,30 @@ const msgerror = document.querySelector('.message-error');
     if (emailLower !== email.value) {
       errorMessage = 'email has to be in lower case';
     }*/
+
+const name=document.querySelector('#name')
+const textarea=document.querySelector('#t1')
+
+let storage={
+  data:['']
+}
+
+    if(!localStorage.getItem('session')) {
+      populateStorage();
+    } else {
+      setStyles();
+    }
+
+    function populateStorage() {
+      storage.data[0]=emailinput.value
+      localStorage.setItem('session', JSON.stringify(storage));
+ 
+      setStyles();
+    }
+
+    function setStyles() {
+      var sessionsaved=JSON.parse(localStorage.getItem('session'))
+      emailinput.value = sessionsaved.data[0];
+    }
+    emailinput.onchange = populateStorage;
+
