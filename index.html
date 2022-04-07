@@ -95,118 +95,13 @@
       </section>
     </section>
     <main>
-      <header>
-        <div class="work-container">
-          <div class="recent-work">
-            <h6>My Recent Works</h6>
-          </div>
-          <div class="header-hr">
-            <hr class="about-hr" />
-          </div>
-        </div>
-      </header>
-
+     
       <!-- Works Section -->
-      <section  id="work-section" class="new-container">
-        <div class="image-p">
-          <img
-            class="image-placeholder"
-            src="./Skeleton/placeholder.png"
-            alt="place holder"
-          />
-          <div class="multi">
-            <h6 class="multi-post">Multi-Post Stories</h6>
-            <p class="recent-detail">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a standard
-              dummy text.
-            </p>
-            <ul class="course">
-              <li class="list">css</li>
-              <li class="list">html</li>
-              <li class="list">bootstrap</li>
-              <li class="list">Ruby</li>
-            </ul>
-            <button class="project" type="button">See Project</button>
-          </div>
-        </div>
-      </section>
-      <section class="professional-section">
-        <div class="professional-work">
-          <button class="see-proj" type="button">See Project</button>
-        </div>
-        <div class="professional-work">
-          <div class="pro-art">
-            <h6 class="art-print">Profesional Art Printing Data</h6>
-            <p class="daily-selection">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard
-            </p>
-            <ul class="pro-tag">
-              <li class="pro-h">html</li>
-              <li class="pro-h">bootstrap</li>
-              <li class="pro-h">Ruby</li>
-            </ul>
-          </div>
-        </div>
-        <div class="professional-work">
-          <div class="pro-art">
-            <h6 class="art-print">Profesional Art Printing Data</h6>
-            <p class="daily-selection">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard
-            </p>
-            <ul class="pro-tag">
-              <li class="pro-h">html</li>
-              <li class="pro-h">bootstrap</li>
-              <li class="pro-h">Ruby</li>
-            </ul>
-          </div>
-        </div>
-        <div class="professional-work">
-          <div class="pro-art">
-            <h6 class="art-print">Profesional Art Printing Data</h6>
-            <p class="daily-selection">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard
-            </p>
-            <ul class="pro-tag">
-              <li class="pro-h">html</li>
-              <li class="pro-h">bootstrap</li>
-              <li class="pro-h">Ruby</li>
-            </ul>
-          </div>
-        </div>
-        <div class="professional-work">
-          <div class="pro-art">
-            <h6 class="art-print">Profesional Art Printing Data</h6>
-            <p class="daily-selection">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard
-            </p>
-            <ul class="pro-tag">
-              <li class="pro-h">html</li>
-              <li class="pro-h">bootstrap</li>
-              <li class="pro-h">Ruby</li>
-            </ul>
-          </div>
-        </div>
-        <div class="professional-work">
-          <div class="pro-art">
-            <h6 class="art-print">Profesional Art Printing Data</h6>
-            <p class="daily-selection">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard
-            </p>
-            <ul class="pro-tag">
-              <li class="pro-h">html</li>
-              <li class="pro-h">bootstrap</li>
-              <li class="pro-h">Ruby</li>
-            </ul>
-          </div>
-        </div>
-      </section>
+      <section class="work" id="portfolio">
+        <p class="workhead">My Recent Works</p>
+        <h2 class="workhead2">My Recent Works</h2>
+        <hr>      
+    </section>
 
       <!-- About Section -->
       <section  id="abouta-section" class="about">
@@ -274,6 +169,7 @@
             action="https://formspree.io/f/xlezlkyw"
             method="post"
             class="contact-us"
+            id="form"
           >
             <input
               type="text"
@@ -281,7 +177,7 @@
               maxlength="30"
               required
             />
-            <input id="mail" type="email" placeholder="Email address" required />
+            <input id="email" class="email" type="email" placeholder="Email address" required />
             <textarea
               name="msgt1"
               id="t1"
@@ -291,9 +187,11 @@
               placeholder="Enter text here"
               required
             ></textarea>
-            <p>
+            <div class="submit-container">
               <button class="button" type="submit">Get in touch</button>
-            </p>
+              
+              <p class="message-error">Email format has to be lowercase</p>
+            </div>
           </form>
         </div>
       </section>
@@ -312,7 +210,7 @@
               alt="LinkedIn"
             />
           </a>
-          <a href="#" class="social-link">
+          <a href="#" class="social-link"> 
             <img class="social-icon" src="./icons/angel.png" alt="Angel" />
           </a>
           <a href="#" class="social-link">
@@ -325,5 +223,6 @@
       </footer>
     </main>
     <script src="index.js"></script>
+    <script src="popup.js"></script>
   </body>
 </html>
