@@ -513,19 +513,18 @@ form.contact-us > input {
   width: 100%;
 }
 
-.submit-container{
+.submit-container {
   justify-content: center;
   gap: 12px;
 }
 
-.message-error{
+.message-error {
   color: red;
   font-size: 17px;
   display: none;
-
 }
 
-.message-error.active{
+.message-error.active {
   display: block;
 }
 
