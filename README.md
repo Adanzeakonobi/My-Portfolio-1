@@ -2,7 +2,7 @@
 
 # My Portfolio
 
-> This is a Microverse project personal portfolio built using HTML and CSS.
+> This is a Microverse project personal portfolio built using HTML CSS and Javascript.
 
 ## View The Project here
 
@@ -12,6 +12,7 @@
 
 - HTML 5
 - CSS 3
+- Javascript
 
 
 ## Getting Started
