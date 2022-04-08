@@ -17,9 +17,9 @@ function changeButton() {
   navLinks.forEach((element) => element.addEventListener('click', toggle));
 
 
-const emailinput = document.querySelector('.email');
+const emailinput = document.querySelector('email');
 const form = document.querySelector('form');
-const msgerror = document.querySelector('.message-error');
+const msgerror = document.querySelector('message-error');
 
 
   form.addEventListener('submit', (event) =>{
