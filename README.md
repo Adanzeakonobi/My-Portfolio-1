@@ -3,6 +3,8 @@
 # My Portfolio
 
 > This is a Microverse project personal portfolio built using HTML CSS and Javascript.
+> ![screenshot](![image](https://user-images.githubusercontent.com/97225349/167257948-2ef4b23a-ab54-4169-b6ce-a1bcb1cd2e13.png)
+)
 
 ## View The Project here
 
