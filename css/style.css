@@ -693,7 +693,7 @@ button:enabled {
 @media screen and (min-width: 768px) {
   .container {
     padding-left: 55px;
-    width: 140%;
+    width: 100%;
     box-sizing: border-box;
   }
 
@@ -713,10 +713,10 @@ button:enabled {
 
   .about-us {
     background-position: top right;
-    background-size: auto;
+    background-size: 50%;
     height: 870px;
     box-sizing: border-box;
-    width: 140%;
+    width: 100%;
   }
 
   .header-content {
@@ -742,7 +742,7 @@ button:enabled {
   .header-text-description {
     font-size: 1.3rem;
     line-height: 32px;
-    width: 120%;
+    width: 100%;
     height: 100px;
   }
 
@@ -756,7 +756,7 @@ button:enabled {
   .work {
     background-color: #fff;
     padding: 2px 0;
-    width: 140%;
+    width: 100%;
   }
 
   .workhead {
@@ -791,7 +791,7 @@ button:enabled {
     justify-content: space-between;
     flex-direction: row;
     margin-right: 24px;
-    padding-left: 80px;
+    padding-left: 30px;
     grid-column: 1 / 4;
   }
 
@@ -895,7 +895,7 @@ button:enabled {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 435px 435px;
     gap: 24px;
-    margin: 24px 100px 0 100px;
+    margin: 24px 40px 0 40px;
     height: 100%;
     padding-bottom: 30px;
   }
@@ -1086,16 +1086,13 @@ button:enabled {
   .about {
     background-color: #262626;
     padding-bottom: 116px;
-    padding-left: 120px;
-    padding-right: 130px;
-    width: 108%;
+    width: 100%;
   }
 
   .about-me {
     background-size: 350px 258px;
     background-position: center right;
     padding-bottom: 131.2px;
-    margin: 0;
     width: 100%;
   }
 
@@ -1127,6 +1124,7 @@ button:enabled {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    padding-left: 60px;
   }
 
   .footer-social-media-links {
@@ -1156,8 +1154,8 @@ button:enabled {
     gap: 24px;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 130px;
-    width: 140%;
+    padding: 100px 40px;
+    width: 100%;
     box-sizing: border-box;
   }
 
@@ -1189,7 +1187,6 @@ button:enabled {
 
   .form-detail {
     position: relative;
-    margin: 0;
     text-align: left;
     width: 40%;
   }
@@ -1199,7 +1196,7 @@ button:enabled {
   }
 
   .foot-separater {
-    width: 140%;
+    width: 100%;
   }
 
   .social-media-icon1 {
@@ -1208,7 +1205,7 @@ button:enabled {
     list-style: none;
     justify-content: center;
     align-items: center;
-    width: 140%;
+    width: 100%;
   }
 }
 

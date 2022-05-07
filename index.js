@@ -23,7 +23,6 @@ const msgerror = document.querySelector('.message-error');
 
 
   form.addEventListener('submit', (event) =>{
-    console.log(event)
     event.preventDefault();
     
     if(emailinput.value===((emailinput.value).toLowerCase())){
